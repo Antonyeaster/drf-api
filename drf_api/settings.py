@@ -63,7 +63,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'https://drf-api-antony-c121376a2219.herokuapp.com'
+    'drf-api-antony-c121376a2219.herokuapp.com'
     ]
 
 
