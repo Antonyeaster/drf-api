@@ -120,7 +120,7 @@ if 'CLIENT_ORIGIN_DEV' in os.environ:
         r'^([^.]+)', os.environ.get('CLIENT_ORIGIN_DEV', ''), re.IGNORECASE
     ).group(0)
     CORS_ALLOWED_ORIGIN_REGEXES = [
-        rf"{extracted_url}(eu|us)\d+\.codeanyapp\.com$",
+        rf"{extracted_url}.(eu|us)\d+\.codeanyapp\.com$",
     ]
 
 CORS_ALLOW_CREDENTIALS = True
